@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <!-- GPS信号状态 -->
+    <TextView
+        android:id="@+id/tv_gps_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS信号: 搜索中..."
+        android:textColor="#00E676"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- 速度大字显示 -->
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="180sp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="km/h"
+        android:textColor="#BDBDBD"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
