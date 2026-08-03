@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.gpsspeed.meter'
     compileSdkVersion 33
     defaultConfig {
         applicationId "com.gpspspeed.meter"
